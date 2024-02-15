@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    margin: 24px auto;
+    max-width: 640px;
+    width: 100%;
+}
+
+.message {
+    margin-top: 10px;
+    font-weight: bold;
+}
