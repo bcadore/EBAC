@@ -18,6 +18,16 @@ header .title {
   margin: 20px auto;
 }
 
+header h1 {
+  border-bottom: 1px solid #9FF49E;
+  border-radius: 3px;
+  padding: 5px 10px;
+  color: #8BAA69;
+  font-size: 50px;
+  font-weight: 900;
+  font-style: italic;
+}
+
 header img {
   width: 75px;
   margin-right: 10px;
@@ -37,6 +47,7 @@ form {
   justify-content: center;
   align-items: center;
   padding-bottom: 10px;
+  border-bottom: 1px solid #009058;
 }
 
 form ion-icon{
@@ -56,8 +67,18 @@ form input{
   border: 3px solid #009058;
 }
 
+input:hover {
+  background-color: #8BAA69;
+  color: #fff;
+  border: 3px solid #009058;
+  margin: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
 form input::placeholder {
-  color: #009058;
+  color: #fff;
   text-align: left;
   font-size: medium;
 }
@@ -78,4 +99,8 @@ li {
   font-size: 20px;  
   text-align: center;
   justify-content: right;
+}
+
+.completed {
+  text-decoration: line-through;
 }
