@@ -23,25 +23,59 @@ header img {
   margin-right: 10px;
 }
 
-form {
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 10px;
-    background-color: #009058;
+main.container {
+  border-radius: 5px;
+  padding: 15px;
+  background-color: #9FF49E;
+  max-width:50vh;
+  max-height: 75vh;
+  height: 100%;
 }
 
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+form ion-icon{
+  color: #009058;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+form input{
+  color: #009058;
+  background-color: #9FF49E;
+  margin: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 6px;
+  padding: 2px;
+  border: 3px solid #009058;
+}
+
+form input::placeholder {
+  color: #009058;
+  text-align: left;
+  font-size: medium;
+}
+
+form label{
+  color: #009058;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+}
 
 li {
-    margin: 5px;
-    background-color: #8BAA69;
-    border-radius: 6px;
-    
-    color: #FFF;
-    
-    font-weight: bold;
-    font-size: 20px;
-    
-    text-align: center;
+  margin: 5px;
+  background-color: #8BAA69;
+  border-radius: 6px;  
+  color: #FFF;  
+  font-weight: bold;
+  font-size: 20px;  
+  text-align: center;
+  justify-content: right;
 }
-

@@ -17,29 +17,35 @@
         <h1>To Do List</h1>
       </div>
     </header>
-    <main>
-        <div class="container">
-            <section class="add-task">
-              <form id="add-task-form">
-                <label for="add-task">Tarefa:</label>
-                <input
-                  type="text"
-                  name="add-task"
-                  id="add-task"
-                  placeholder="Digite aqui sua tarefa"
-                  required
-                />
-                <button type="button">+</button>
-              </form>
-            </section>
-            <section class="list">
-              <ul>
-                <li>TAREFA 1</li>
-                <li>TAREFA 2</li>
-                <li>TAREFA 3</li>
-              </ul>
-            </section>
-        </div>
+    <main class="container">
+      <div class="border-green-light">
+        <section class="add-task">
+          <form id="add-task-form">
+            <label for="add-task">TASK:</label>
+            <input
+              type="text"
+              name="add-task"
+              id="add-task"
+              placeholder="Add here your task name"
+              required
+            />
+            <ion-icon name="add-circle-outline"></ion-icon>
+          </form>
+        </section>
+        <section class="list">
+          <ul>
+            <li>ADICIONE UMA TAREFA</li>
+          </ul>
+        </section>
+      </div>
     </main>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg .com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
