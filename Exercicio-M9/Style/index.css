@@ -1,0 +1,47 @@
+body {
+  background-color: #009058;
+  height: 100vh;
+}
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header .title {
+  display: flex;
+  max-width: 1280px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+header img {
+  width: 75px;
+  margin-right: 10px;
+}
+
+form {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    background-color: #009058;
+}
+
+
+li {
+    margin: 5px;
+    background-color: #8BAA69;
+    border-radius: 6px;
+    
+    color: #FFF;
+    
+    font-weight: bold;
+    font-size: 20px;
+    
+    text-align: center;
+}
+
