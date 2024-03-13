@@ -1,11 +1,63 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>EBAC - Exercício módulo 10</title>
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header class=".container">
+      <h1>Cadastro:</h1>
+    </header>
+    <main>
+      <div class="container">
+        <form class="form-cadastro">
+          <label for="nome">Nome completo:</label>
+          <input
+            type="text"
+            name="nome"
+            id="nome"
+            placeholder="Informe seu nome completo"
+            required
+          />
+
+          <label for="email">E-mail:</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="examplo@exemplo.com"
+            required
+          />
+
+          <label for="telefone">Telefone:</label>
+          <input type="text" name="telefone" id="telefone" required />
+
+          <label for="cpf">CPF:</label>
+          <input type="text" name="cpf" id="cpf" required />
+
+          <label for="endereco">Endereço:</label>
+          <input type="text" name="endereco" id="endereco" required />
+
+          <label for="cep">CEP:</label>
+          <input type="text" name="cep" id="cep" required />
+
+          <button type="submit">ENVIAR</button>
+        </form>
+      </div>
+    </main>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script src="./js/jquery.mask.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
 </html>
