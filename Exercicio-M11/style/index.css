@@ -1,0 +1,91 @@
+.container {
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #5343d9;
+  color: #fff;
+  margin-bottom: 24px;
+  padding: 16px;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+    font-style: italic;
+}
+
+.menu ul {
+  display: flex;
+}
+
+.menu a {
+  color: #fff;
+  padding-left: 24px;
+}
+
+.sobre-nos {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin-bottom: 36px;
+}
+
+.sobre-nos img {
+    max-width: 100%;
+    padding-right: 16px;
+}
+
+article p {
+    padding-top: 8px;
+    text-align: justify;
+}
+
+h2 {
+    color: #5343d9;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #5343d9;
+}
+
+.produtos {
+    display: grid;
+    grid-template-columns: repeat(4, 24.25%);
+    column-gap: 1%;
+    margin-top: 36px;
+}
+
+.produtos img {
+    max-width: 100%;
+    border: 1px solid #5343d9;
+}
+
+.produtos button {
+    background-color: #5343d9;
+    color: #fff;
+
+    width: 100%;
+    margin-top: 8px;
+    
+    padding: 1.5px;
+    font-size: 16px;
+
+    border-radius: 3px;
+
+    cursor: pointer;
+}
+
+.produtos button:hover {
+    background-color: #fff;
+    color: #5343d9;
+    border: 2px solid #5343d9;
+
+}
+
+@media screen and (min-width:641px) and (max-width:1023px) {
+
+}
