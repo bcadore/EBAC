@@ -127,3 +127,56 @@ h2 {
     font-size: 20px;
   }
 }
+
+@media screen and (max-width: 640px) {
+    .container {
+      max-width: 90%;
+    }
+  
+    header {
+      margin-bottom: 18px;
+      padding: 10px;
+    }
+  
+    header h1 {
+      font-size: 20px;
+    }
+    
+    .menu ul {
+      display: block;
+    }
+  
+    .menu a {
+      font-size: 16px;
+    }
+  
+    .sobre-nos {
+      display: block;
+    }
+  
+    .sobre-nos img {
+      max-width: 100%;
+      margin: 0 auto 20px;
+      border: 1px solid #5343d9;
+    }
+  
+    .sobre-nos article {
+      margin-left: 0px;
+    }
+  
+    .produtos {
+      display: block;
+    }
+  
+    .produtos img {
+      width: 100%;
+    }
+  
+    .produtos button {
+      font-size: 16px;
+      padding: 10px;
+      margin-bottom: 24px;
+      font-size: 18px;
+    }
+  }
+  
