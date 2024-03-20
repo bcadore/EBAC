@@ -18,7 +18,7 @@ header .container {
 }
 
 header h1 {
-    font-style: italic;
+  font-style: italic;
 }
 
 .menu ul {
@@ -31,61 +31,99 @@ header h1 {
 }
 
 .sobre-nos {
-    display: grid;
-    grid-template-columns: 40% 60%;
-    margin-bottom: 36px;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  margin-bottom: 36px;
 }
 
 .sobre-nos img {
-    max-width: 100%;
-    padding-right: 16px;
+  max-width: 100%;
+  border: 1px solid #5343d9;
+}
+
+.sobre-nos article {
+  margin-left: 16px;
 }
 
 article p {
-    padding-top: 8px;
-    text-align: justify;
+  padding-top: 8px;
+  text-align: justify;
 }
 
 h2 {
-    color: #5343d9;
-    padding-bottom: 5px;
-    border-bottom: 2px solid #5343d9;
+  color: #5343d9;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #5343d9;
+  font-style: italic;
+  margin-bottom: 24px;
 }
 
 .produtos {
-    display: grid;
-    grid-template-columns: repeat(4, 24.25%);
-    column-gap: 1%;
-    margin-top: 36px;
+  display: grid;
+  grid-template-columns: repeat(4, 24.25%);
+  column-gap: 1%;
+  margin-top: 36px;
 }
 
 .produtos img {
-    max-width: 100%;
-    border: 1px solid #5343d9;
+  max-width: 100%;
+  border: 1px solid #5343d9;
+  margin-bottom: 24px;
 }
 
 .produtos button {
-    background-color: #5343d9;
-    color: #fff;
-
-    width: 100%;
-    margin-top: 8px;
-    
-    padding: 1.5px;
-    font-size: 16px;
-
-    border-radius: 3px;
-
-    cursor: pointer;
+  background-color: #5343d9;
+  color: #fff;
+  width: 100%;
+  margin-top: 8px;
+  padding: 1.5px;
+  font-size: 16px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: bolder;
 }
 
 .produtos button:hover {
-    background-color: #fff;
-    color: #5343d9;
-    border: 2px solid #5343d9;
-
+  background-color: #fff;
+  color: #5343d9;
+  border: 2px solid #5343d9;
 }
 
-@media screen and (min-width:641px) and (max-width:1023px) {
+@media screen and (min-width: 641px) and (max-width: 1023px) {
+  .container {
+    max-width: 90%;
+  }
 
+  .menu a {
+    font-size: 20px;
+  }
+
+  .sobre-nos {
+    display: block;
+  }
+
+  .sobre-nos img {
+    width: 100%;
+    margin-bottom: 12px;
+    border: 1px solid #5343d9;
+  }
+
+  .sobre-nos article {
+    margin-left: 0px;
+  }
+
+  .produtos {
+    display: grid;
+    grid-template-columns: repeat(2, 48%);
+    column-gap: 4%;
+    row-gap: 4%;
+  }
+
+  .produtos img {
+    width: 100%;
+  }
+
+  .produtos button {
+    font-size: 20px;
+  }
 }
