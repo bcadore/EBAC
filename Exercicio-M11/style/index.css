@@ -116,7 +116,6 @@ h2 {
     display: grid;
     grid-template-columns: repeat(2, 48%);
     column-gap: 4%;
-    row-gap: 4%;
   }
 
   .produtos img {
@@ -125,6 +124,7 @@ h2 {
 
   .produtos button {
     font-size: 20px;
+    margin-bottom: 24px;
   }
 }
 
